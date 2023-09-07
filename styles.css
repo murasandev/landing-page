@@ -2,9 +2,13 @@
     background-color: #1F2937;
 }
 
+/* header styling */
 .header {
     padding: 0 150px;
     font-weight: 900;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header a,
@@ -13,10 +17,12 @@
     color: white;
 }
 
-.header-links li {
+.header-links li,
+.intro-info p {
     list-style: none;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header,
@@ -25,4 +31,108 @@
     justify-content: space-between;
     gap: 16px;
     align-items: center;
+}
+
+/* intro styling */
+
+.intro {
+    display: flex;
+    padding: 0 150px;
+    gap: 32px;
+    align-items: center;
+}
+
+.intro-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro-info p {
+    margin-top: -25px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.intro-image {
+    display: flex;
+    flex: 0 1 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.intro-image img{
+    width: 100%;
+    height: auto;
+}
+
+.intro button {
+    max-width: 100px;
+    height: 32px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 5%;
+}
+
+button a {
+    color: #f9faf8;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* container 1 */
+
+.container-1,
+.info-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1,
+.info-box-container,
+.info-box,
+.container-1 h2,
+.info-box p,
+.info-box-img {
+    background-color: white;
+}
+
+.container-1 {
+    margin-top: 100px;
+    padding: 50px 0 ;
+}
+
+.info-box-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px 150px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.container-1 h2 {
+    text-align: center;
+}
+
+.info-box {
+    align-items: center;
+    max-width: 150px;
+}
+
+.info-box-img {
+    border: solid;
+    border-radius: 10%;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+.info-box p {
+    text-align: center;
 }
