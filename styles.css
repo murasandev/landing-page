@@ -105,7 +105,8 @@ button a {
 .info-box,
 .container-1 h2,
 .info-box p,
-.info-box-img {
+.info-box-img,
+.sign-up-container {
     background-color: white;
 }
 
@@ -181,4 +182,62 @@ button a {
 .quote-align p,
 .quote-align {
     background-color: #E5E7EB;
+}
+
+/* sign up */
+.sign-up-container {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box,
+.sign-up-text,
+.call-to-action,
+.call-to-action-subtext,
+.sign-up-box button {
+    background-color: #3882F6;
+}
+
+.sign-up-box {
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+    padding: 25px 75px;
+}
+
+.call-to-action,
+.call-to-action-subtext {
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.call-to-action-subtext {
+    font-size: 10px;
+}
+
+.sign-up-box button {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 10px;
+    font-weight: 900;
+    width: 75px;
+    height: 25px;
+    flex-shrink: 0;
 }
