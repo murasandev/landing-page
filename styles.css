@@ -2,6 +2,10 @@
     background-color: #1F2937;
 }
 
+body {
+    margin: 0;
+}
+
 /* header styling */
 .header {
     padding: 0 150px;
@@ -137,4 +141,44 @@ button a {
 
 .info-box p {
     text-align: center;
+}
+
+/* quote container */
+
+.quote-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.quote {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0;
+    color: #1F2937;
+    font-style: italic;
+    max-width: 750px;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.quote-align {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    gap: 32px;
+}
+
+.quote-container,
+.quote-container b,
+.quote-align p,
+.quote-align {
+    background-color: #E5E7EB;
 }
