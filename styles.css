@@ -4,6 +4,9 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* header styling */
@@ -243,6 +246,11 @@ button a {
 }
 
 /* footer */
+
+.footer {
+    margin-top: auto;
+}
+
 .footer p {
     color: #E5E7EB;
     font-size: 10px;
