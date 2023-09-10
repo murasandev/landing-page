@@ -241,3 +241,11 @@ button a {
     height: 25px;
     flex-shrink: 0;
 }
+
+/* footer */
+.footer p {
+    color: #E5E7EB;
+    font-size: 10px;
+    padding: 20px 0;
+    text-align: center;
+}
